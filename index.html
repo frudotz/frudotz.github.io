@@ -26,7 +26,10 @@
 <meta property="twitter:image:src" content="https://raw.githubusercontent.com/frudotz/frudotz.github.io/main/frudotz.png">
 
 <link rel="icon" href="https://raw.githubusercontent.com/frudotz/frudotz.github.io/main/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/frudotz/frudotz.github.io/main/style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+<link rel="preload" href="https://media-exp1.licdn.com/dms/image/C4D03AQGBFC0z5tI9PQ/profile-displayphoto-shrink_800_800/0/1662924436440?e=1670457600&v=beta&t=rMyMfk32WIk5x-Z2U-4QQxyaCHqtqYw2gOZsSxZQqmI" as="image">
+<link rel="preload" href="https://raw.githubusercontent.com/frudotz/frudotz.github.io/main/BG.jpg" as="image">
 </head>
 
 <body oncontextmenu="return false">
@@ -66,7 +69,7 @@
 </script>
   
 <script>
-    document.onkeydown = function(e) {
+  document.onkeydown = function(e) {
   if(event.keyCode == 123) {
      return false;
   }
@@ -86,168 +89,3 @@
 </script>
 </body>
 </html>
-<style>
-*{
-    transition: all 0.5s;
-    padding: 0;
-    margin: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    user-select: none; /* supported by Chrome and Opera */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
-    -o-user-drag: none;
-    user-drag: none;
-}
-body{
-    background: url(https://dl.dropbox.com/s/mpmu0gjtxv2x3fs/Webp.net-resizeimage%20%281%29.jpg?raw=1) no-repeat center center fixed; 
-    background-size: cover;
-}
-
-.card{
-    height: 400px;
-    width: 320px;
-    background-color: rgba(255, 255, 255, 0.06);
-    -webkit-backdrop-filter: blur(20px);
-            backdrop-filter: blur(20px);
-    position: absolute;
-     margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    border-radius: 8px;
-    -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
-            box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
-    font-family: 'Poppins',sans-serif;
-}
-.card-img{
-    height: 120px;
-    width: 120px;
-    background-color: rgba(255, 255, 255, 0.06);
-    -webkit-backdrop-filter: blur(20px);
-            backdrop-filter: blur(20px);
-    border-radius: 50%;
-    position: absolute;
-    margin: 30px auto 20px  auto;
-    left: 0;
-    right: 0;
-
-}
-.card-img img{
-    height: 86%;
-    border-radius: 50%;
-    margin-left: 7%;
-    margin-top: 7%;
-}
-h6{
-    margin: 0;
-}
-.desc{
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 160px;
-}
-.primary-text{
-    color: #d5d5d5;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 0.7px;
-    margin: 5px 0;
-}
-.secondary-text{
-    color: #c0c0c0;
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 1px;
-    margin: 5px 0;
-}
-button{
-    background-color: rgba(255, 255, 255, 0.06);
-    -webkit-backdrop-filter: blur(20px);
-            backdrop-filter: blur(20px);
-    border: none;
-
-}
-.details{
-    display: -ms-grid;
-    display: grid;
-    width: 100%;
-    height: 70px;
-    padding: 0 0;
-    -ms-grid-columns: auto auto;
-    grid-template-columns: auto auto;
-    background-color: rgba(255, 255, 255, 0.06);
-    -webkit-backdrop-filter: blur(20px);
-            backdrop-filter: blur(20px);
-    position: absolute;
-    bottom: 0;
-    border-radius: 0 0 8px 8px;
-    justify-items: center
-}
-.details>div{
-    text-align: center;
-}
-button{
-    width: 80%;
-    padding: 15px 0;
-    position: relative;
-    left: 10%;
-    top: 240px;
-    border-radius: 5px;
-    outline: none;
-}
-a{
-    color: #ffffff;
-    border-radius: 5px;
-    text-decoration:none;
-}
-.GitHub {
-    position: relative;
-    border-radius: 5px;
-    margin: 5% 5% 5% 5%;
-    width: 140px;
-    float: right;
-} 
-.GitHub:hover {
-    background: rgba(255, 255, 255, 0.1);
-}
-.LinkedIn {
-    position: relative;
-    border-radius: 5px;
-    margin: 5% 5% 5% 5%;
-    width: 140px;
-    float: left;
-}
-.LinkedIn:hover {
-    background: rgba(255, 255, 255, 0.1);
-}
-@media only screen and (max-width: 1080px) {
-*{
-    transform: scale(1.15);
-} 
-.details {
-    transform: scale(1.0);
-} 
-.card-img img {
-    transform: scale(1.0);
-}
-.desc {
-    transform: scale(1.0);
-    top: 170px;
-}
-.GitHub {
-    transform: scale(1.0);
-    top: 5%;
-}
-.LinkedIn {
-    transform: scale(1.0);
-    top: 5%;
-}}
-</style>
