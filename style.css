@@ -112,7 +112,8 @@ button{
     position: relative;
     bottom: 0;
     border-radius: 0 0 8px 8px;
-    justify-items: center
+    justify-items: center;
+    overflow: hidden;
 }
 .details>div{
     text-align: center;
@@ -148,12 +149,10 @@ button{
     margin-left: 137px;
 }
 .close {
-  overflow: hidden;
   height: 0;
   opacity: 0;
 }
 .open {
-  overflow: visible;
   height: 55px;
   opacity: 1;
 }
@@ -227,7 +226,7 @@ a{
     right: 0;
     top: 0;
     bottom: 0;
-    border-radius: 16px;
+    border-radius: 12px;
     -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
             box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
     font-family: 'Poppins',sans-serif;
@@ -284,7 +283,7 @@ a{
             backdrop-filter: blur(20px);
     position: relative;
     bottom: 0;
-    border-radius: 0 0 16px 16px;
+    border-radius: 0 0 12px 12px;
     justify-items: center
 }
 .menumode {
