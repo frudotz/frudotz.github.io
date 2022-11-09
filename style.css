@@ -34,8 +34,8 @@ body {
     border-radius: 8px;
     -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,.2);
     box-shadow: 20px 20px 22px rgba(0,0,0,.2);
-    font-family: "Poppins",sans-serif
-    text-align: center;
+    font-family: "Poppins",sans-serif;
+    text-align: center
 }
 
 .card,.card-img,.desc {
@@ -160,7 +160,7 @@ button {
     padding: 1.75% 7%;
     width: auto;
     height: auto;
-    border-radius: 8px 8px 0 0;
+    border-radius: 8px 8px 0 0
 }
 
 .close {
@@ -220,8 +220,8 @@ a {
         border-radius: 16px;
         -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,.2);
         box-shadow: 20px 20px 22px rgba(0,0,0,.2);
-        font-family: "Poppins",sans-serif
-        text-align: center;
+        font-family: "Poppins",sans-serif;
+        text-align: center
     }
 
     .card,.card-img,.desc {
@@ -329,6 +329,6 @@ a {
         padding: 1.75% 7%;
         width: auto;
         height: auto;
-        border-radius: 16px 16px 0 0;
+        border-radius: 16px 16px 0 0
     }
 }
