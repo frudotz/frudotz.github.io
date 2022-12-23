@@ -10,8 +10,10 @@ const elements = {
     discriminator: document.getElementById("tag"),
     avatar: document.getElementById("avatar"),
     status: document.getElementById("status"),
+    status2: document.getElementById("status2"),
     card: document.getElementById("profile"),
     durum: document.getElementById("durum"),
+    durumm: document.getElementById("spodurum"),
     hangicihaz: document.getElementById("aktiflikyeri"),
 };
 
@@ -63,16 +65,17 @@ lanyard.onmessage = ({ data }) => {
             if (!user.activities[0]){
             a += 1
             } if (a == 3){
-            elements.durum.innerText ="Discord Status: Anything"
+            elements.durum.innerText ="Nothing"
             } else if ( a == 2) {
-            elements.durum.innerText ="Discord Status: "+ user.activities[0].state
+            elements.durum.innerText =user.activities[0].state
             } else if (a == 0){
-            elements.durum.innerText ="Discord Status: "+ user.activities[0].state+"\n What am I doing: "+user.activities[1].name
+            elements.durum.innerText =user.activities[0].state
+            elements.durumm.innerText =user.activities[1].name
             
             }
             if(user.listening_to_spotify== true){
-                document.getElementById("spotify-artist").innerText = "\n"+ user.spotify.artist
-                document.getElementById("spotify-song").innerText = "\n"+ user.spotify.song
+                document.getElementById("spotify-artist").innerText = user.spotify.artist
+                document.getElementById("spotify-song").innerText = user.spotify.song
                 document.getElementById("spotify-pic").src = user.spotify.album_art_url
                 document.getElementById("spotify-pic").style.visibility = "visible";
             }
@@ -87,11 +90,15 @@ lanyard.onmessage = ({ data }) => {
             }
             elements.status.style.background =
                 statusColors[user.discord_status];
+          elements.status2.style.background =
+                statusColors[user.discord_status];
             
             
         } else if (parsedData.t == "PRESENCE_UPDATE") {
             const user = parsedData.d;
             elements.status.style.background =
+                statusColors[user.discord_status];
+          elements.status2.style.background =
                 statusColors[user.discord_status];
         }
     }
