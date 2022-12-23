@@ -20,15 +20,19 @@ body {
     background-size: cover
 }
 
-.card {
-    height: 400px;
-    width: 320px;
+.card,.card-img {
+    position: absolute;
     background-color: rgba(255,255,255,.06);
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
-    margin: auto;
     left: 0;
-    right: 0;
+    right: 0
+}
+
+.card {
+    height: 400px;
+    width: 320px;
+    margin: auto;
     top: 0;
     bottom: 0;
     border-radius: 8px;
@@ -38,33 +42,53 @@ body {
     text-align: center
 }
 
-.card,.card-img,.desc {
-    position: absolute
-}
-
 .card-img {
     height: 120px;
     width: 120px;
-    background-color: rgba(255,255,255,.06);
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    border-radius: 50%;
-    margin: 30px auto 20px;
-    left: 0;
-    right: 0
+    margin: 30px auto 20px
 }
 
-.card-img img {
+.card-img,.pp,.status {
+    border-radius: 50%
+}
+
+.pp {
     height: 100px;
-    border-radius: 50%;
     margin-top: 10px
 }
 
-.card-img img:hover {
-    transform: scale(1.25);
-    -webkit-box-shadow: 0 0 50px 0#fff;
-    -moz-box-shadow: 0 0 50px 0#fff;
-    box-shadow: 0 0 50px 0#fff
+.status {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    background: #747f8d;
+    float: right;
+    bottom: 32px;
+    right: 10px;
+    border: 5px;
+    border-style: solid;
+    border-color: #131637
+}
+
+.discordprofile {
+    width: 410px;
+    height: 210px;
+    border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+    border: 0;
+    position: relative;
+    bottom: 55px;
+    left: 30px;
+    z-index: 1;
+    -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,.2);
+    box-shadow: 20px 20px 22px rgba(0,0,0,.2)
+}
+
+.status:hover .discordprofile {
+    opacity: 1;
+    visibility: visible;
+    bottom: 105px
 }
 
 *,h6 {
@@ -74,7 +98,9 @@ body {
 .desc {
     width: 100%;
     text-align: center;
-    top: 150px
+    top: 150px;
+    position: absolute;
+    z-index: -1
 }
 
 .primary-text {
@@ -181,8 +207,11 @@ a {
 .Behance,.GitHub,.Instagram,.LinkedIn {
     position: relative;
     border-radius: 5px;
+    width: 148px
+}
+
+.LinkedIn {
     margin: 5% 2.5% 2.5% 5%;
-    width: 148px;
     float: left
 }
 
@@ -190,12 +219,12 @@ a {
     background: rgba(255,255,255,.1)
 }
 
-.Behance,.GitHub,.Instagram {
+.GitHub {
     margin: 5% 5% 2.5% 2.5%;
     float: right
 }
 
-.Behance,.Instagram {
+.Behance {
     margin: 2.5% 2.5% 5% 5%;
     float: left
 }
@@ -206,15 +235,19 @@ a {
 }
 
 @media only screen and (max-width:1080px) {
+    .card,.card-img {
+        position: absolute;
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        left: 0;
+        right: 0
+    }
+
     .card {
         height: 800px;
         width: 640px;
         background-color: rgba(255,255,255,.06);
-        -webkit-backdrop-filter: blur(20px);
-        backdrop-filter: blur(20px);
         margin: auto;
-        left: 0;
-        right: 0;
         top: 0;
         bottom: 0;
         border-radius: 16px;
@@ -224,31 +257,61 @@ a {
         text-align: center
     }
 
-    .card,.card-img,.desc {
-        position: absolute
-    }
-
     .card-img {
         height: 250px;
         width: 250px;
-        -webkit-backdrop-filter: blur(20px);
-        backdrop-filter: blur(20px);
-        border-radius: 50%;
-        margin: 50px auto 25px;
-        left: 0;
-        right: 0
+        margin: 50px auto 25px
     }
 
-    .card-img img {
+    .card-img,.pp,.status {
+        border-radius: 50%
+    }
+
+    .pp {
         height: 210px;
-        border-radius: 50%;
         margin-top: 20px
+    }
+
+    .status {
+        width: 64px;
+        height: 64px;
+        position: relative;
+        background: #747f8d;
+        float: right;
+        bottom: 64px;
+        right: 10px;
+        border: 10px;
+        border-style: solid;
+        border-color: #131637
+    }
+
+    .discordprofile {
+        width: 410px;
+        height: 210px;
+        border-radius: 10px;
+        opacity: 0;
+        visibility: hidden;
+        border: 0;
+        position: relative;
+        top: 105px;
+        left: -210px;
+        z-index: 1;
+        -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,.2);
+        box-shadow: 20px 20px 22px rgba(0,0,0,.2)
+    }
+
+    .status:hover .discordprofile {
+        opacity: 1;
+        visibility: visible;
+        top: 55px
     }
 
     .desc {
         width: 100%;
         text-align: center;
-        top: 310px
+        top: 310px;
+        position: absolute;
+        z-index: -1
     }
 
     .primary-text {
@@ -292,7 +355,10 @@ a {
         position: relative;
         border-radius: 10px;
         width: 296px;
-        height: 110px;
+        height: 110px
+    }
+
+    .LinkedIn {
         float: left
     }
 
@@ -300,11 +366,11 @@ a {
         background: rgba(255,255,255,.1)
     }
 
-    .Behance,.GitHub,.Instagram {
+    .GitHub {
         float: right
     }
 
-    .Behance,.Instagram {
+    .Behance {
         float: left
     }
 
