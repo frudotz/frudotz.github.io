@@ -9,7 +9,7 @@ const elements = {
     username: document.getElementById("username"),
     discriminator: document.getElementById("tag"),
     avatar: document.getElementById("avatar"),
-    status: document.getElementById("card-img"),
+    status: document.getElementById("status"),
     card: document.getElementById("profile"),
     durum: document.getElementById("durum"),
     hangicihaz: document.getElementById("aktiflikyeri"),
