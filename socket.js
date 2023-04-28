@@ -11,7 +11,7 @@ const elements = {
     avatar: document.getElementById("avatar"),
     status: document.getElementById("status"),
     status2: document.getElementById("status2"),
-    profile: document.getElementById("profile"),
+    card: document.getElementById("profile"),
     durum: document.getElementById("durum"),
     durumm: document.getElementById("spodurum"),
     hangicihaz: document.getElementById("aktiflikyeri"),
@@ -53,17 +53,17 @@ lanyard.onmessage = ({ data }) => {
         if (parsedData.t == "INIT_STATE") {
             const user = parsedData.d;
             elements.avatar.src = `https://cdn.discordapp.com/avatars/460867393141342218/${user.discord_user.avatar}?size=128`;
-            var a = 0;
-            console.log(user);
-            elements.profile.style.opacity = "1";
+            var a = 0
+            console.log(user)
+            elements.card.style.opacity = "1";
             elements.username.innerText = user.discord_user.username;
             elements.discriminator.innerText = `#${user.discord_user.discriminator}`;
             try {
-                if (!user.activities[0]) {
-                    a += 1;
-                }
-            if (!user.activities[0]){
+            if (!user.activities[1]){
             a += 2
+            }
+            if (!user.activities[0]){
+            a += 1
             } if (a == 3){
             elements.durum.innerText ="Nothing"
             } else if ( a == 2) {
