@@ -34,7 +34,7 @@ lanyard.onopen = () => {
 lanyard.onmessage = ({ data }) => {
     const parsedData = JSON.parse(data);
 
-    if (parsedData.op == OPCODES.HELLO) {
+    
         // Interval
         setInterval(function () {
             lanyard.send(
@@ -43,7 +43,7 @@ lanyard.onmessage = ({ data }) => {
                 })
             );
         }, parsedData.d.heartbeat_interval);
-    } else if (parsedData.op == OPCODES.INFO) {
+    
         // ... (diğer kodlar aynı kalabilir)
         const statusColors = {
             online: "#2afa62",
