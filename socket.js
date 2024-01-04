@@ -17,21 +17,24 @@ const elements = {
 
 const lanyard = new WebSocket("wss://api.lanyard.rest/socket");
 
+// On Open
+lanyard.onopen = () => {
+    // Identify
+    lanyard.send(
+        JSON.stringify({
+            op: OPCODES.INIT,
+            d: {
+                subscribe_to_id: "460867393141342218",
+            },
+        })
+    );
+};
+
 // On Message
 lanyard.onmessage = ({ data }) => {
     const parsedData = JSON.parse(data);
 
     if (parsedData.op == OPCODES.HELLO) {
-        // Identify
-        lanyard.send(
-            JSON.stringify({
-                op: OPCODES.INIT,
-                d: {
-                    subscribe_to_id: "460867393141342218",
-                },
-            })
-        );
-
         // Interval
         setInterval(function () {
             lanyard.send(
@@ -41,6 +44,7 @@ lanyard.onmessage = ({ data }) => {
             );
         }, parsedData.d.heartbeat_interval);
     } else if (parsedData.op == OPCODES.INFO) {
+        // ... (diğer kodlar aynı kalabilir)
         const statusColors = {
             online: "#2afa62",
             offline: "#747F8D",
