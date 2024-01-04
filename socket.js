@@ -20,7 +20,7 @@ const lanyard = new WebSocket("wss://api.lanyard.rest/socket");
 lanyard.onopen = () => {
     console.log("WebSocket connection established.");
 
-    // Identify
+    // Initial check for user's current status
     lanyard.send(
         JSON.stringify({
             op: OPCODES.INIT,
@@ -54,6 +54,7 @@ lanyard.onmessage = ({ data }) => {
 
         if (parsedData.t === "INIT_STATE") {
             const user = parsedData.d;
+            elements.status.style.background = statusColors[user.discord_status];
             elements.avatar.src = `https://cdn.discordapp.com/avatars/460867393141342218/${user.discord_user.avatar}?size=128`;
 
             let a = 0;
