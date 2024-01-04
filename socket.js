@@ -43,7 +43,7 @@ function startHeartbeatLoop() {
     // Set up the heartbeat loop
     setInterval(function () {
         sendHeartbeat();
-    }, 5000); // Adjust the interval as needed (5000 milliseconds = 5 seconds)
+    }, 1000); // Adjust the interval as needed (5000 milliseconds = 5 seconds)
 }
 
 // On Message
