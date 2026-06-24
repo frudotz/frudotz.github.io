@@ -1,0 +1,183 @@
+{
+  "count": "22 kayıt",
+  "note": "Seçilmiş sertifika arşivi",
+  "compact": true,
+  "items": [
+    {
+      "title": "SiberVatan AyaküstüCTF · Katılım Sertifikası",
+      "period": "TEKNOFEST · Mayıs 2023",
+      "body": "Yetenekler: Siber Güvenlik, Bilgi Teknolojisi.",
+      "tags": ["CTF", "Siber Güvenlik"],
+      "logo": "https://cdn.teknofest.org/media/upload/userFormUpload/t3-logo-TR-01_wnoJj_1_5TSjS.png",
+      "style": "padding: 5px; background: white; filter: grayscale(1);"
+    },
+    {
+      "title": "CompTIA Pentest+",
+      "period": "TryHackMe · Ocak 2023",
+      "body": "Yeterlilik Kimliği: THM-WJUQ6NAO5I.",
+      "tags": ["Pentest", "TryHackMe"],
+      "logo": "https://tryhackme.com/img/favicon.png",
+      "style": "padding: 5px; background: white;"
+    },
+    {
+      "title": "Complete Beginner",
+      "period": "TryHackMe · Ocak 2023",
+      "body": "Yeterlilik Kimliği: THM-CBWBCXMSKB.",
+      "tags": ["Cybersecurity"],
+      "logo": "https://tryhackme.com/img/favicon.png",
+      "style": "padding: 5px; background: white;"
+    },
+    {
+      "title": "Ağ Temelleri",
+      "period": "BTK Akademi · Aralık 2022",
+      "body": "Yeterlilik Kimliği: AjaSdmMNmp.",
+      "tags": ["Ağ", "BTK"],
+      "logo": "https://assets-btkakademi-gov-tr.akamaized.net/api/service/v1/public/51/assets/dm_logo.png",
+      "style": "padding: 5px; background: #233f7d; object-fit: contain;"
+    },
+    {
+      "title": "Bilgisayar Ağları",
+      "period": "Global Enstitü · Aralık 2022",
+      "body": "Yeterlilik Kimliği: 315036GE1112821.",
+      "tags": ["Ağ"],
+      "logo": "https://globalenstitu.com/wp-content/uploads/2017/10/yuvarlaklogo.png",
+      "style": "padding: 5px; background: white;"
+    },
+    {
+      "title": "Dijital Pazarlama",
+      "period": "Global Enstitü · Aralık 2022",
+      "body": "Yeterlilik Kimliği: 315036GE1112826.",
+      "tags": ["Pazarlama"],
+      "logo": "https://globalenstitu.com/wp-content/uploads/2017/10/yuvarlaklogo.png",
+      "style": "padding: 5px; background: white;"
+    },
+    {
+      "title": "Etkili İletişim Teknikleri Eğitimi",
+      "period": "Boensntitü · Aralık 2022",
+      "body": "İletişim teknikleri odağında eğitim sertifikası.",
+      "tags": ["İletişim"],
+      "logo": "https://yt3.googleusercontent.com/hsgGziM35kP-XGvraycAW9JrdA-QYFqncSgWkjuww3clGH5P4ZYr8J9i0kg18_6zOVEZgLLbkA=s900-c-k-c0x00ffffff-no-rj",
+      "style": "padding: 5px; background: white;"
+    },
+    {
+      "title": "IPV6 Teknoloji Dönüşüm İhtiyaçları ve Çalışmaları",
+      "period": "BTK Akademi · Aralık 2022",
+      "body": "Yeterlilik Kimliği: 0Kohzxy9j7.",
+      "tags": ["IPv6", "BTK"],
+      "logo": "https://assets-btkakademi-gov-tr.akamaized.net/api/service/v1/public/51/assets/dm_logo.png",
+      "style": "padding: 5px; background: #233f7d; object-fit: contain;"
+    },
+    {
+      "title": "Introduction to Cyber Security",
+      "period": "TryHackMe · Aralık 2022",
+      "body": "Yeterlilik Kimliği: THM-OJZD1AE9MM.",
+      "tags": ["Security"],
+      "logo": "https://tryhackme.com/img/favicon.png",
+      "style": "padding: 5px; background: white;"
+    },
+    {
+      "title": "Jr Penetration Tester",
+      "period": "TryHackMe · Aralık 2022",
+      "body": "Yeterlilik Kimliği: THM-CN2HV2QEZX.",
+      "tags": ["Pentest"],
+      "logo": "https://tryhackme.com/img/favicon.png",
+      "style": "padding: 5px; background: white;"
+    },
+    {
+      "title": "Pazarlama ve Satış Teknikleri",
+      "period": "Global Enstitü · Aralık 2022",
+      "body": "Yeterlilik Kimliği: 315036GE8920.",
+      "tags": ["Satış", "Pazarlama"],
+      "logo": "https://globalenstitu.com/wp-content/uploads/2017/10/yuvarlaklogo.png",
+      "style": "padding: 5px; background: white;"
+    },
+    {
+      "title": "Pre Security",
+      "period": "TryHackMe · Aralık 2022",
+      "body": "Yeterlilik Kimliği: THM-L1DJFPYGLJ.",
+      "tags": ["TryHackMe"],
+      "logo": "https://tryhackme.com/img/favicon.png",
+      "style": "padding: 5px; background: white;"
+    },
+    {
+      "title": "Web Fundamentals",
+      "period": "TryHackMe · Aralık 2022",
+      "body": "Yeterlilik Kimliği: THM-FDTQTLZVK9.",
+      "tags": ["Web", "Security"],
+      "logo": "https://tryhackme.com/img/favicon.png",
+      "style": "padding: 5px; background: white;"
+    },
+    {
+      "title": "İnternet Alan Adları Hukuku",
+      "period": "BTK Akademi · Aralık 2022",
+      "body": "Yeterlilik Kimliği: J1HKk2rEY.",
+      "tags": ["Alan Adı", "BTK"],
+      "logo": "https://assets-btkakademi-gov-tr.akamaized.net/api/service/v1/public/51/assets/dm_logo.png",
+      "style": "padding: 5px; background: #233f7d; object-fit: contain;"
+    },
+    {
+      "title": "Bilgi Teknolojilerine Giriş",
+      "period": "BTK Akademi · Kasım 2022",
+      "body": "Yeterlilik Kimliği: MAZUNxPKdj.",
+      "tags": ["BT"],
+      "logo": "https://assets-btkakademi-gov-tr.akamaized.net/api/service/v1/public/51/assets/dm_logo.png",
+      "style": "padding: 5px; background: #233f7d; object-fit: contain;"
+    },
+    {
+      "title": "Practical Cybersecurity for IT Professionals",
+      "period": "LinkedIn · Ekim 2022",
+      "body": "BT profesyonelleri için pratik siber güvenlik eğitimi.",
+      "tags": ["LinkedIn", "Security"],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png",
+      "style": ""
+    },
+    {
+      "title": "Software Architecture: From Developer to Architect",
+      "period": "LinkedIn · Ekim 2022",
+      "body": "Yazılım mimarisi odağında LinkedIn eğitimi.",
+      "tags": ["Architecture"],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png",
+      "style": ""
+    },
+    {
+      "title": "İHA - 1 Sportif / Amatör Pilot Sertifikası",
+      "period": "SHGM · Haziran 2022",
+      "body": "Yeterlilik Kimliği: TR-İHA1H9980903.",
+      "tags": ["SHGM", "İHA"],
+      "logo": "https://web.shgm.gov.tr/documents/sivilhavacilik/files/images/logolar/shgm_logo.jpg",
+      "style": "padding: 5px; background: white; object-fit: contain;"
+    },
+    {
+      "title": "Introduction to Cybersecurity",
+      "period": "Cisco Networking Academy · Nisan 2022",
+      "body": "Yetenekler: Siber Güvenlik.",
+      "tags": ["Cisco", "Security"],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/1280px-Cisco_logo_blue_2016.svg.png",
+      "style": "padding: 5px; background: #07172c; object-fit: contain;"
+    },
+    {
+      "title": "Stratejik İnsan Kaynakları Yönetimi",
+      "period": "İstanbul İşletme Enstitüsü · Nisan 2022 — Nisan 2029",
+      "body": "Yeterlilik Kimliği: 126989710322.",
+      "tags": ["Yönetim"],
+      "logo": "https://www.iienstitu.com/logo-64.png",
+      "style": "padding: 5px; background: white;"
+    },
+    {
+      "title": "Görsel Mağazacılık Eğitimi",
+      "period": "İstanbul İşletme Enstitüsü · Nisan 2022 — Nisan 2029",
+      "body": "Yeterlilik Kimliği: 126989736682.",
+      "tags": ["Görsel"],
+      "logo": "https://www.iienstitu.com/logo-64.png",
+      "style": "padding: 5px; background: white;"
+    },
+    {
+      "title": "Get Connected English",
+      "period": "Cisco Networking Academy · Mart 2022",
+      "body": "Cisco Networking Academy eğitim sertifikası.",
+      "tags": ["Cisco"],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/1280px-Cisco_logo_blue_2016.svg.png",
+      "style": "padding: 5px; background: #07172c; object-fit: contain;"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://frudotz.com/sitemap.xml

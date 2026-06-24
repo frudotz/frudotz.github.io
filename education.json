@@ -1,0 +1,23 @@
+{
+  "count": "2 kayıt",
+  "note": "Eğitim geçmişi",
+  "compact": false,
+  "items": [
+    {
+      "title": "İstinye Üniversitesi · Önlisans · Bilişim Güvenliği Teknolojisi",
+      "period": "Eylül 2025 — Haziran 2027 (Beklenen)",
+      "body": "Mezuniyet dahilinde BT Teknikeri / IT Specialist ünvanıyla siber güvenlik, bilgi işlem ve giriş seviyesi yazılım kazanımlarıyla uygun pozisyonlarda görev alabilirim.",
+      "tags": ["Siber Güvenlik", "Bilgi İşlem", "Yazılım"],
+      "logo": "https://www.istinye.edu.tr/sites/default/files/2025-07/isu_logo_tr-1.svg",
+      "style": "object-fit: contain; padding: 5px; background: #0379a8;"
+    },
+    {
+      "title": "Açık Öğretim Lisesi · 4 Yıllık",
+      "period": "Eylül 2022 — Nisan 2024",
+      "body": "Alan yok - 2. Mezuniyet notu: 78,29.",
+      "tags": ["Lise", "Mezun"],
+      "logo": "https://aolweb.meb.gov.tr/images/meblogo.png",
+      "style": "padding: 5px; background: white;"
+    }
+  ]
+}
