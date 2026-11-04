@@ -1039,26 +1039,26 @@ F¥f5šÜVcC-EHªÍX¨¢(Š ‚(Š”¢¢5‰QhHª•¨±˜ÔTj+1¥eb¢ª(A@@ D@P P   (     (  
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
-<title>TBMM Tanýtým Sayfasý</title>
+<title>TBMM Tanitim Sayfasi</title>
 <style>
 *{box-sizing:border-box}body{margin:0;font:16px Arial;color:#333;background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/TBMM_meclis_binasi_1.jpg");background-position:center;background-size:cover;background-attachment:fixed;background-repeat:no-repeat;isolation:isolate}body:before{content:"";position:fixed;inset:0;background:rgba(125,15,15,.72);z-index:-1;pointer-events:none}.site{width:710px;margin:0 auto}nav{display:grid;grid-template-columns:repeat(5,1fr);gap:0;padding:45px 35px 25px}nav a{text-align:center;color:white;text-decoration:none;padding:12px 5px;border-right:1px dotted #ddd}nav a:last-child{border:0}nav a:hover{text-decoration:underline}main,footer{border:8px solid #bbb;background:white;margin-bottom:8px;box-shadow:0 3px 8px #333}main{padding:32px;min-height:835px}h1{font:normal 22px Georgia;margin:0 0 16px}p{line-height:1.25;margin:0 0 28px}.building{display:block;width:210px;height:145px;object-fit:cover;margin:0 0 22px}iframe{display:block;width:560px;height:370px;border:0}footer{height:145px;display:grid;grid-template-columns:1.2fr .8fr .9fr .9fr .8fr;align-items:center;gap:12px;padding:12px 28px;text-align:center}footer img{max-width:100%;max-height:100px;object-fit:contain}footer .edtext{font:20px Georgia;text-align:left}footer .tbmm{font:18px Georgia;text-align:left;word-break:break-all}
 </style>
 </head>
 <body>
 <div class="site">
-<nav><a href="#ana">Ana Sayfa</a><a href="#tarihce">Tarihçe</a><a href="#fotograflar">Fotoðraflar</a><a href="#videolar">Videolar</a><a href="#iletisim">Ýletiþim</a></nav>
+<nav><a href="#ana">Ana Sayfa</a><a href="#tarihce">Tarihçe</a><a href="#fotograflar">Fotograflar</a><a href="#videolar">Videolar</a><a href="#iletisim">Iletisim</a></nav>
 <main id="ana">
-<h1>Meclis Tanýtým Sayfasýna Hoþ Geldiniz</h1>
-<p>Birinci Türkiye Büyük Millet Meclisi binasý olarak kullanýlan yapý, döneminde parti binasý olarak inþa edilmiþtir. 1916 yýlýnda Ýttihat ve Terakki Fýrkasý binasý olarak yapýlmasýna karar verilmiþtir. Harbiye Nazýrý Enver Paþa'nýn emriyle Mimar Salim Bey tarafýndan bina projelendirilmiþ ve proje yapým iþi ise Askerî Mimar Hasan Bey'e verilmiþtir. Hasan Bey, binanýn büyük bölümünü baþarý ile bitirmiþ ancak çatý ve diðer bölümler, sürmekte olan savaþ, yaþanan malzeme sýkýntýsý ve Ýttihat ve Terakki Fýrkasýnýn kapanmasý gibi nedenlerle tamamlanamamýþtýr.</p>
+<h1>Meclis Tanitim Sayfasina Hos Geldiniz</h1>
+<p>Birinci Turkiye Buyuk Millet Meclisi binasi olarak kullanilan yapi, doneminde parti binasi olarak insa edilmistir. 1916 yilinda Ittihat ve Terakki Firkasi binasi olarak yapilmasina karar verilmistir. Harbiye Naziri Enver Pasa'nin emriyle Mimar Salim Bey tarafindan bina projelendirilmis ve proje yapim isi ise Askeri Mimar Hasan Bey'e verilmistir. Hasan Bey, binanin buyuk bolumunu basari ile bitirmiþ ancak cati ve diger bolumler, surmekte olan savas, yasanan malzeme sikintisi ve Ittihat ve Terakki Firkasinin kapanmasi gibi nedenlerle tamamlanamamistir.</p>
 <img class="building" src="https://commons.wikimedia.org/wiki/Special:FilePath/Kurtulus_Savasi_Muzesi_(I._Turkiye_Buyuk_Millet_Meclisi_Binasi),_2023_170.jpg" alt="Birinci TBMM binasý">
 <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID" title="TBMM tanýtým videosu" allowfullscreen></iframe>
 </main>
 <footer>
-<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%C4%B0stinye_%C3%9Cniversitesi_logo.svg" alt="Ýstinye Üniversitesi logosu">
-<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Turkey.svg" alt="Türkiye bayraðý">
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%C4%B0stinye_%C3%9Cniversitesi_logo.svg" alt="Istinye Universitesi logosu">
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Turkey.svg" alt="Turk bayragi">
 <div class="edtext">E-Devlet</div>
 <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Turkish_Parliamentary_Logo.png" alt="TBMM logosu">
-<div class="tbmm">Türkiye Büyük Millet Meclisi</div>
+<div class="tbmm">Turkiye Buyuk Millet Meclisi</div>
 </footer>
 </div>
 </body>
